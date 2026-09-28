@@ -1,0 +1,21 @@
+{
+  "name": "basket-association-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Windows-local shopping-basket frequent itemset & association rule analysis backend (API + CLI).",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node src/main.ts serve",
+    "serve": "node src/main.ts serve",
+    "demo": "node src/main.ts demo",
+    "test": "node --test tests/",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
