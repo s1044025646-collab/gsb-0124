@@ -1,0 +1,21 @@
+[
+  {
+    "id": "T-0001",
+    "idempotencyKey": "import-20260101-T-0001",
+    "storeId": "S1",
+    "time": "2026-01-02T10:15:00Z",
+    "lines": [
+      { "lineRef": "L1", "sku": "bread", "quantity": 2 },
+      { "lineRef": "L2", "sku": "butter", "quantity": 1 }
+    ]
+  },
+  {
+    "id": "T-0002",
+    "storeId": "S1",
+    "time": "2026-01-02T11:30:00Z",
+    "lines": [
+      { "lineRef": "L1", "sku": "diaper", "quantity": 1 },
+      { "lineRef": "L2", "sku": "beer", "quantity": 3 }
+    ]
+  }
+]

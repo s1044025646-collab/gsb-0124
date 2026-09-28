@@ -1,0 +1,11 @@
+[
+  { "sku": "bread", "productId": "bread" },
+  { "sku": "butter", "productId": "butter" },
+  { "sku": "milk", "productId": "milk" },
+  { "sku": "cereal", "productId": "cereal" },
+  { "sku": "diaper", "productId": "diaper" },
+  { "sku": "beer", "productId": "beer" },
+  { "sku": "coffee", "productId": "coffee" },
+  { "sku": "tea", "productId": "tea" },
+  { "sku": "sugar", "productId": "sugar" }
+]

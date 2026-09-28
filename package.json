@@ -1,0 +1,21 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "Local SQLite shopping-basket frequent itemset and association rule backend",
+  "main": "dist/src/cli.js",
+  "bin": { "basket-assoc": "dist/src/cli.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --experimental-sqlite --test dist/test/*.test.js",
+    "demo": "npm run build && node --experimental-sqlite dist/src/cli.js demo",
+    "start": "npm run build && node --experimental-sqlite dist/src/cli.js serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
